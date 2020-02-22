@@ -15,13 +15,13 @@ Set up local workspace for react
 -----------------------------
 1. Inside VS Code, run Terminal.  I prefer powershell, but you can use whichever makes sense
 2. Decide where you want your local development environment to be.  I like mine in c:\dev, so I will put my react projects in C:\dev\react
-
-   cd c:\
-   mkdir dev
-   cd dev
-   mkdir react
-   cd c:\dev\react
-   pwd          ' prints working directory, should show you are in c:\dev\react
+<br>
+   cd c:\<br>
+   mkdir dev<br>
+   cd dev<br>
+   mkdir react<br>
+   cd c:\dev\react<br>
+   pwd          ' prints working directory, should show you are in c:\dev\react<br>
 
 Install create-react-app and then create a test react project
 -----------------------------
