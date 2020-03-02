@@ -20,6 +20,7 @@ This project will install several tools to prepare for web development.  These t
 3. Visual Studio Code:  A free to use Integrated Development Environment developed by Microsoft.  It provides access to the file system, source control, and terminal.  I use this to check out, compile, and develop web projects.  
   Specifically this installs a set of tools in C:\Program Files\Microsoft VS Code\
 
+    code.cmd
 
 We will then install and run a node package, create-react-app.  This package will create a npx script that you can run.  This npx script will
 set up all of the tools and technologies needed to create a local react project.
