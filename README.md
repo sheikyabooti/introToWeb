@@ -2,9 +2,24 @@
 Introduction to Local Web Development
 
 This project will install several tools to prepare for web development.  These tools are
-1. git 
-2. Node.js
-3. Visual Studio Code
+
+1. git:  An open source source control system.  (https://git-scm.com)
+    Specifically this installs a set of tools in C:\Program Files\Git\bin
+
+     - bash.exe - a shell program
+     - git.exe - git
+     - sh.exe - another name for the bash shell program
+
+2. Node.js:  A Node runtime.  A runtime is a system that interfaces between a language and the underlying hardware. (https://nodejs.org/en/)
+    Specifically this installs a set of tools.
+
+     - node.exe
+     - npm.cmd
+     - npx.cmd
+
+3. Visual Studio Code:  A free to use Integrated Development Environment developed by Microsoft.  It provides access to the file system, source control, and terminal.  I use this to check out, compile, and develop web projects.  
+  Specifically this installs a set of tools in C:\Program Files\Microsoft VS Code\
+
 
 We will then install and run a node package, create-react-app.  This package will create a npx script that you can run.  This npx script will
 set up all of the tools and technologies needed to create a local react project.
@@ -12,7 +27,7 @@ set up all of the tools and technologies needed to create a local react project.
 After we have installed the create-react-app package, we will run it, and create a local project, named reactproject1.  Once we have created this project, we can run it at any time by calling npm start from the reactproject1 folder.  Running npm start on this package will do two things.
 
 1. Start up a local Node.js server, running on port 3000.
-2. Start up a web browser, and connect to localhost:3000.  If done correctly, this will show a spinning react logo.
+2. Start up a web browser, and connect to localhost:3000.  If the stars align, this will show a spinning react logo.
 
 Install Node.js (tested 12.15.1 LTS)
 -----------------------------
